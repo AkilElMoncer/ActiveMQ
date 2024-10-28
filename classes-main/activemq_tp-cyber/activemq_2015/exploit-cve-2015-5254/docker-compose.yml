@@ -1,0 +1,14 @@
+version: '2'
+services:
+ activemq:
+   image: vulhub/activemq:5.11.1
+   ports:
+    - "61616:61616"
+    - "8161:8161"
+    - "1099:1099"
+   environment:
+    - JAVA_OPTS=-Dcom.sun.management.jmxremote
+    - Dcom.sun.management.jmxremote.port=1099
+    - Dcom.sun.management.jmxremote.authenticate=false
+    - Dcom.sun.management.jmxremote.ssl=false
+ 
