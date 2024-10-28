@@ -1,9 +1,9 @@
 CVE 2016-3088
 
 Pour commencer, scannez le réseau afin d'identifier les services actifs et leurs versions avec la commande :
-nmap -sV 192.168.1.145
+nmap -p- 192.168.1.145
 
-![Capture d’écran 2024-10-28 à 11 36 45](https://github.com/user-attachments/assets/43cb12a0-ad54-434f-8ef3-c75c2f53c1b3)
+![Capture d’écran 2024-10-28 à 12 32 29](https://github.com/user-attachments/assets/adf66034-e307-4601-8485-cc26b76d2a32)
 
 Ensuite, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant Docker Compose :
 docker compose up -d
