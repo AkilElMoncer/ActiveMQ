@@ -1,11 +1,6 @@
 CVE 2016-3088
 
-Pour commencer, scannez le réseau afin d'identifier les services actifs et leurs versions avec la commande :
-nmap -p- 192.168.1.145
-
-![Capture d’écran 2024-10-28 à 12 32 29](https://github.com/user-attachments/assets/adf66034-e307-4601-8485-cc26b76d2a32)
-
-Ensuite, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant Docker Compose :
+Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant Docker Compose :
 docker compose up -d
 
 ![Capture d’écran 2024-10-28 à 11 32 42](https://github.com/user-attachments/assets/78ec3caa-2c74-45b7-b19a-9ccc136e4e9c)
@@ -24,7 +19,10 @@ On peut aussi voir la version de activemq dans le fichier docker-compose.yml:
 ![Capture d’écran 2024-10-28 à 11 38 12](https://github.com/user-attachments/assets/52a231f2-a055-442a-b362-cec6ed79b7bd)
 Le suffixe with-cron dans l'image vulhub/activemq:5.11.1-with-cron indique que le conteneur ActiveMQ inclut le service cron pour exécuter automatiquement des tâches planifiées. comme des scripts ou des commandes à des moments précis dans le conteneur.
 
+Pour scanner le réseau afin d'identifier les services actifs et leurs versions avec la commande :
+nmap -p- 192.168.1.145
 
+![Capture d’écran 2024-10-28 à 12 32 29](https://github.com/user-attachments/assets/adf66034-e307-4601-8485-cc26b76d2a32)
 
 Pour exploiter la vulnérabilité, exécutez le script CVE-2016-3088.py :
 
