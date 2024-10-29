@@ -1,11 +1,11 @@
 CVE 2016-3088
 
-Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant Docker Compose :
+Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant:
 docker compose up -d
 
 ![Capture d’écran 2024-10-28 à 11 32 42](https://github.com/user-attachments/assets/78ec3caa-2c74-45b7-b19a-9ccc136e4e9c)
 
-Accédez ensuite à l'interface d'administration dans un navigateur à l'adresse :
+Accédez ensuite à l'interface ActiveMQ dans un navigateur à l'adresse :
 
 http://localhost:8161/admin/
 
