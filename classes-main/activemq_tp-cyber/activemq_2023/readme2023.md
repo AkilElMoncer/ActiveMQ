@@ -1,6 +1,6 @@
 CVE 2023-46604
 
-Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2023 en utilisant Docker Compose :
+Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2023 en utilisant:
 
 docker compose up -d
 
