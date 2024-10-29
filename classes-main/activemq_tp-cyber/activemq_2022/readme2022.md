@@ -23,12 +23,11 @@ nmap -p- 192.168.1.145
 
 ![Capture d’écran 2024-10-29 à 12 52 53](https://github.com/user-attachments/assets/25f4b9ef-635b-4b9a-9c9d-45d6ca0e4f06)
 
-Pour exploiter la vulnérabilité, exécutez le script script.py :
+Pour exploiter la vulnérabilité CVE-2022-32207, j'exécute le script script.py, qui est conçu pour injecter une commande malveillante dans une file d'attente (queue) ActiveMQ :
 ![Capture d’écran 2024-10-29 à 12 56 01](https://github.com/user-attachments/assets/8f139196-2840-4bf0-b39c-e16808600e7e)
 
-Ici, le script à bien envoyeé un message à la queue, pour être sure que la requete a bien été envoyé, nous allons le verifier sur activemq dans un premier temps:
-
-La requete a bien ete envoyé:
+Pour confirmer que le message a bien été envoyé, je consulte la queue dans l'interface d’administration d'ActiveMQ.
+Le message y apparaît, indiquant que la requête malveillante a bien été injectée.
 ![Capture d’écran 2024-10-29 à 12 58 07](https://github.com/user-attachments/assets/ca620ecc-9043-4265-9316-f525c44d2ce3)
 ![Capture d’écran 2024-10-29 à 12 59 10](https://github.com/user-attachments/assets/42b7ae8a-1b3f-4f84-a0bd-66184985385a)
 ![Capture d’écran 2024-10-29 à 12 59 40](https://github.com/user-attachments/assets/90f92cc9-1918-4ace-9e76-e6801a8800e7)
