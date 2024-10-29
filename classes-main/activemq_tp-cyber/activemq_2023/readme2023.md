@@ -6,7 +6,7 @@ docker compose up -d
 
 ![Capture d’écran 2024-10-28 à 12 38 08](https://github.com/user-attachments/assets/d8f89a89-5db4-443e-ac48-01ada7163acd)
 
-Accédez ensuite à l'interface d'administration dans un navigateur à l'adresse :
+Accédez ensuite à l'interface ActiveMQ dans un navigateur à l'adresse :
 
 http://localhost:8161/admin/
 
