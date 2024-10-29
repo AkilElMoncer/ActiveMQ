@@ -24,5 +24,17 @@ nmap -p- 192.168.1.145
 ![Capture d’écran 2024-10-29 à 12 52 53](https://github.com/user-attachments/assets/25f4b9ef-635b-4b9a-9c9d-45d6ca0e4f06)
 
 Pour exploiter la vulnérabilité, exécutez le script script.py :
+![Capture d’écran 2024-10-29 à 12 56 01](https://github.com/user-attachments/assets/8f139196-2840-4bf0-b39c-e16808600e7e)
 
-<img width="1082" alt="Capture d’écran 2024-10-29 à 12 55 01" src="https://github.com/user-attachments/assets/5eb8ddd0-a172-4080-9e8f-7cd9a264067d">
+Ici, le script à bien envoyeé un message à la queue, pour être sure que la requete a bien été envoyé, nous allons le verifier sur activemq dans un premier temps:
+
+La requete a bien ete envoyé:
+![Capture d’écran 2024-10-29 à 12 58 07](https://github.com/user-attachments/assets/ca620ecc-9043-4265-9316-f525c44d2ce3)
+![Capture d’écran 2024-10-29 à 12 58 41](https://github.com/user-attachments/assets/c8d81428-caeb-4274-8f7f-c994942b22f5)
+![Capture d’écran 2024-10-29 à 12 59 04](https://github.com/user-attachments/assets/00ca216b-b731-403a-ad8a-1e043012d332)
+
+Dans un deuxieme temps, nous allons verifier si la requete s'est bien effectuer dans le dossier /tmp
+![Capture d’écran 2024-10-29 à 13 03 53](https://github.com/user-attachments/assets/2328cf63-56cf-4d6b-b93b-7a4d67e4a7fb)
+
+
+
