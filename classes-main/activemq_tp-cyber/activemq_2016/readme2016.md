@@ -1,5 +1,7 @@
 CVE 2016-3088
 
+<img width="992" alt="Capture d’écran 2024-10-31 à 19 28 54" src="https://github.com/user-attachments/assets/e20e4588-3776-4320-a3bb-e73a6db35405">
+
 Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2016 en utilisant:
 docker compose up -d
 
