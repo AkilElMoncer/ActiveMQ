@@ -37,7 +37,9 @@ Si l’exploit réussit, vous pouvez accéder au shell en utilisant l’URL suiv
 http://localhost:8161/api/evil.jsp?pwd=9527&i=whoami
 
 Nous avons ca:
+
 ![Capture d’écran 2024-10-28 à 11 47 17](https://github.com/user-attachments/assets/9b6de1b9-f5a5-470c-b8b9-0faf53f3d8b4)
+
 cela prouve bien que nous somme en root et nous avons infiltré active grace au webshell
 
 Changer whoami par n'importe quelle commande pour voir le résultat. Par exemple, pour afficher les fichiers :
