@@ -1,4 +1,5 @@
 CVE 2022-41678
+<img width="993" alt="Capture d’écran 2024-10-31 à 19 29 32" src="https://github.com/user-attachments/assets/78dd42bb-6c6e-4c1f-8ed9-2b5adad5908e">
 
 Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2022 en utilisant:
 docker compose up -d
