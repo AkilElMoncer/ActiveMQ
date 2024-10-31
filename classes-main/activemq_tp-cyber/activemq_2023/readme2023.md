@@ -1,5 +1,7 @@
 CVE 2023-46604
 
+<img width="993" alt="Capture d’écran 2024-10-31 à 19 30 17" src="https://github.com/user-attachments/assets/59de428a-2fdd-487d-9d5d-a7bb4c1ca74b">
+
 Pour commencer, lancez ActiveMQ en arrière-plan dans le dossier activemq_2023 en utilisant:
 
 docker compose up -d
