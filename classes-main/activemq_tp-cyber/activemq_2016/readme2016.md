@@ -1,4 +1,4 @@
-# README - Exploitation de CVE-2016-3088
+# Exploitation de CVE-2016-3088
 
 Ce document détaille l'exploitation de la vulnérabilité **CVE-2016-3088** sur un serveur ActiveMQ. Il comprend la configuration de l'environnement, l'exécution de l'exploit, et la vérification de l'accès.
 
