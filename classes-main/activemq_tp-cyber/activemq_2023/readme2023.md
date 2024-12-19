@@ -1,4 +1,4 @@
-# README - Exploitation de CVE-2023-46604
+# Exploitation de CVE-2023-46604
 
 Ce document détaille les étapes nécessaires pour exploiter la vulnérabilité **CVE-2023-46604** sur un serveur ActiveMQ, permettant une exécution de code à distance (RCE).
 
